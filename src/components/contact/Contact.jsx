@@ -31,14 +31,14 @@ const Contact = () => {
           <SiInstagram className='contact__option-icon' />
           <h4>Instagram</h4>
           <h5>oyezaheer</h5>
-          <a href="https://m.me/oyezaheer" target="_blank">Send a message</a>
+          <a href="https://www.instagram.com/direct/inbox/oyezaheer" target="_blank">Send a message</a>
         </article>
 
         <article className="contact__option">
           <BsWhatsapp className='contact__option-icon' />
           <h4>Whatsapp</h4>
-          <h5>+91 83499-13807</h5>
-          <a href="https://api.whatsapp.com/send?phone=6262966656" target="_blank">Send a message</a>
+          <h5>+91 62656-84584</h5>
+          <a href="https://api.whatsapp.com/send?phone=916265684584" target="_blank">Send a message</a>
         </article>
       </div>
       {/* END OF CONTACT OPTION  */}
