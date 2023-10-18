@@ -23,22 +23,34 @@ const Contact = () => {
         <article className="contact__option">
           <HiOutlineMail className='contact__option-icon'/>
           <h4>Email</h4>
+          {
+            // eslint-disable-next-line
+          }
           <h5>zaheer286khan@gmail.com</h5>
-          <a href="mailto:zaheer286khan@gmail.com"  target="_blank">Send a message</a>
+          {
+            // eslint-disable-next-line
+          }
+          <a href={"mailto:zaheer286khan@gmail.com"} target={"_blank"} rel="noreferrer"  >Send a message</a>
         </article>
 
         <article className="contact__option">
           <SiInstagram className='contact__option-icon' />
           <h4>Instagram</h4>
           <h5>oyezaheer</h5>
-          <a href="https://www.instagram.com/direct/inbox/oyezaheer" target="_blank">Send a message</a>
+        {
+            // eslint-disable-next-line
+        }
+          <a href="https://www.instagram.com/direct/inbox/oyezaheer" target="_blank" rel="noreferrer" >Send a message</a>
         </article>
 
         <article className="contact__option">
           <BsWhatsapp className='contact__option-icon' />
           <h4>Whatsapp</h4>
           <h5>+91 62656-84584</h5>
-          <a href="https://api.whatsapp.com/send?phone=916265684584" target="_blank">Send a message</a>
+          {
+            // eslint-disable-next-line
+          }
+          <a href="https://api.whatsapp.com/send?phone=916265684584" target="_blank" rel="noreferrer" >Send a message</a>
         </article>
       </div>
       {/* END OF CONTACT OPTION  */}

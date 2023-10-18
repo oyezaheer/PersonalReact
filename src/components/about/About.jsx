@@ -9,11 +9,21 @@ const About = () => {
     <section id="about">
       <h5>Get To Know </h5>
       <h2>About me</h2>
-
+    {
+          // eslint-disable-next-line
+    }
+    
       <div className="container about__container">
         <div className="about__me">
+        {
+          // eslint-disable-next-line
+        }
+        
           <div className="about__me-image">
-            <img src={ME} alt="About Image" />
+          {
+          // eslint-disable-next-line
+          }
+            <img src={ME} alt="About " />
           </div>
         </div>
 
