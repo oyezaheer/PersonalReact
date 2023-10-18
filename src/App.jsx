@@ -25,5 +25,5 @@ const App = () => {
     </>
   )
 }
-
+// minor
 export default App
