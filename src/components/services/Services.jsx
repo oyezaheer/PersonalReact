@@ -8,7 +8,7 @@ const Services = () => {
       <h2>Services</h2>
 
       <div className="container services__container">
-        <article className="service">
+        {/* <article className="service">
           <div className="service__head">
             <h3>UI/UX Design</h3>
           </div>
@@ -36,34 +36,34 @@ const Services = () => {
             </li>
             
           </ul>
-        </article>
+        </article> */}
 
         {/* END OF UI/UX  */}
         <article className="service">
           <div className="service__head">
-            <h3>Web Development</h3>
+            <h3>Frontend Development</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Ensuring seamless functionality and aesthetics across all devices.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p> Improving load times and overall performance for optimal user experience.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Ensuring consistent functionality across different web browsers.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Implementing interactive elements such as animations, forms, and dynamic content to enhance user engagement.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Providing ongoing maintenance and support to keep websites and applications up-to-date and functional.</p>
             </li>
             
           </ul>
@@ -72,29 +72,29 @@ const Services = () => {
         {/* END OF WEB DEV */}
         <article className="service">
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>Backend Development</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Developing robust server-side code to handle client requests and manage data operations efficiently.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Ensuring the smooth operation and organization of databases to store and retrieve data effectively..</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Creating interfaces that allow different software applications to communicate and share data seamlessly.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p> Implementing security protocols to protect data and systems from unauthorized access and cyber threats.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Optimizing backend processes to enhance speed and efficiency, ensuring a seamless user experience.</p>
             </li>
             
           </ul>

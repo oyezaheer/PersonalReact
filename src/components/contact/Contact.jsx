@@ -46,11 +46,11 @@ const Contact = () => {
         <article className="contact__option">
           <BsWhatsapp className='contact__option-icon' />
           <h4>Whatsapp</h4>
-          <h5>+91 62656-84584</h5>
+          <h5>+91 83499-13807</h5>
           {
             // eslint-disable-next-line
           }
-          <a href="https://api.whatsapp.com/send?phone=916265684584" target="_blank" rel="noreferrer" >Send a message</a>
+          <a href="https://api.whatsapp.com/send?phone=918349913807" target="_blank" rel="noreferrer" >Send a message</a>
         </article>
       </div>
       {/* END OF CONTACT OPTION  */}

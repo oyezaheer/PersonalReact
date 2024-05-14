@@ -37,24 +37,24 @@ const About = () => {
               <small>1+ Years Working</small>
             </article>
 
-            <article className='about__card'>
+            {/* <article className='about__card'>
             <FiUser className='about__icons'/>
               <h5>Clients</h5>
               <small>200+ India</small>
-            </article>
+            </article> */}
 
             <article className='about__card'>
             <VscFolderLibrary className='about__icons'/>
               <h5>Project</h5>
-              <small>40+ Completed</small>
+              <small>6+ Completed</small>
             </article>
 
           </div>
 
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex recusandae accusantium et totam obcaecati eum, labore aperiam assumenda, officia omnis harum, ipsum libero sint iure. Tempora nam error veniam officiis.
-          </p>
+          As a MERN stack developer, I specialize in building robust and scalable web applications using MongoDB, Express.js, React.js, and Node.js. With a focus on creating responsive and user-friendly interfaces, I aim to deliver high-quality solutions that meet the unique needs of each project.
+             </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>

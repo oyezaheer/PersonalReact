@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
+import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
@@ -13,45 +13,31 @@ const data = [
   {
     id:1,
     image:IMG1,
-    title:'Crypto Currency DashBoard & Financial Visualization',
-    github:'https://github.com',
-    demo:'https://dribble.com/shots'
+    title:'Job Seeking Web Application',
+    github:'https://github.com/oyezaheer/Job-Seeking-Backend',
+    demo:'https://job-seeking-web-application.netlify.app/'
   },
   {
     id:2,
     image:IMG2,
-    title:'Crypto Currency DashBoard & Financial Visualization',
-    github:'https://github.com',
-    demo:'https://dribble.com/shots'
+    title:'Feedback Collection App',
+    github:'https://github.com/oyezaheer/emailyy',
+    // demo:'https://dribble.com/shots'
   },
  
   {
     id:3,
     image:IMG3,
-    title:'Crypto Currency DashBoard & Financial Visualization',
-    github:'https://github.com',
-    demo:'https://dribble.com/shots'
+    title:'URL Shortener',
+    github:'https://github.com/oyezaheer/Url-shortener',
+    // demo:'https://dribble.com/shots'
   },
   {
     id:4,
     image:IMG4,
-    title:'Crypto Currency DashBoard & Financial Visualization',
-    github:'https://github.com',
-    demo:'https://dribble.com/shots'
-  },
-  {
-    id:5,
-    image:IMG5,
-    title:'Crypto Currency DashBoard & Financial Visualization',
-    github:'https://github.com',
-    demo:'https://dribble.com/shots'
-  },
-  {
-    id:6,
-    image:IMG6,
-    title:'Crypto Currency DashBoard & Financial Visualization',
-    github:'https://github.com',
-    demo:'https://dribble.com/shots'
+    title:'React Personal Portfolio',
+    github:'https://github.com/oyezaheer/React-Personal-Portfolio',
+    // demo:'https://dribble.com/shots'
   }
 ]
 
