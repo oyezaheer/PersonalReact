@@ -4,7 +4,7 @@ import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
-// import IMG5 from '../../assets/portfolio5.png'
+import IMG5 from '../../assets/portfolio5.png'
 // import IMG6 from '../../assets/portfolio6.jpg'
 
 
@@ -12,13 +12,20 @@ import IMG4 from '../../assets/portfolio4.jpg'
 const data = [
   {
     id:1,
+    image:IMG5,
+    title:'Imaginify',
+    github:'https://github.com/oyezaheer/imaginify',
+    demo:'https://imaginify-newone.vercel.app/'
+  },
+  {
+    id:2,
     image:IMG1,
     title:'Job Seeking Web Application',
     github:'https://github.com/oyezaheer/Job-Seeking-Backend',
     demo:'https://job-seeking-web-application.netlify.app/'
   },
   {
-    id:2,
+    id:3,
     image:IMG2,
     title:'Feedback Collection App',
     github:'https://github.com/oyezaheer/emailyy',
@@ -26,14 +33,14 @@ const data = [
   },
  
   {
-    id:3,
+    id:4,
     image:IMG3,
     title:'URL Shortener',
     github:'https://github.com/oyezaheer/Url-shortener',
     // demo:'https://dribble.com/shots'
   },
   {
-    id:4,
+    id:5,
     image:IMG4,
     title:'React Personal Portfolio',
     github:'https://github.com/oyezaheer/React-Personal-Portfolio',
