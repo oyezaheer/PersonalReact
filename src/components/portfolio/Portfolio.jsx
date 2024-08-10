@@ -5,6 +5,8 @@ import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
+import IMG6 from '../../assets/portfolio7.png'
+import IMG7 from '../../assets/portfolio8.png'
 // import IMG6 from '../../assets/portfolio6.jpg'
 
 
@@ -19,28 +21,42 @@ const data = [
   },
   {
     id:2,
+    image:IMG6,
+    title:'Better Clone',
+    github:'https://github.com/oyezaheer/better-clone',
+    demo:'https://swift-mortgage.vercel.app/'
+  },
+  {
+    id:3,
     image:IMG1,
     title:'Job Seeking Web Application',
     github:'https://github.com/oyezaheer/Job-Seeking-Backend',
     demo:'https://job-seeking-web-application.netlify.app/'
   },
   {
-    id:3,
+    id:4,
     image:IMG2,
     title:'Feedback Collection App',
     github:'https://github.com/oyezaheer/emailyy',
     // demo:'https://dribble.com/shots'
   },
+  {
+    id:5,
+    image:IMG7,
+    title:'Shopify Product Scrapper',
+    github:'https://github.com/oyezaheer/shopifybackend',
+    demo:'https://shopifyscrapper.vercel.app/'
+  },
  
   {
-    id:4,
+    id:6,
     image:IMG3,
     title:'URL Shortener',
     github:'https://github.com/oyezaheer/Url-shortener',
     // demo:'https://dribble.com/shots'
   },
   {
-    id:5,
+    id:7,
     image:IMG4,
     title:'React Personal Portfolio',
     github:'https://github.com/oyezaheer/React-Personal-Portfolio',

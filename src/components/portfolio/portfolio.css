@@ -17,9 +17,12 @@
     background: transparent;
 }
 
-.portfolio__item-image{
+.portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
+    width: 300px; /* Set your desired width */
+    height: 150px; /* Set your desired height */
+    object-fit: contain; /* Ensure the image covers the entire area without distortion */
 }
 
 .portfolio__item h3{
